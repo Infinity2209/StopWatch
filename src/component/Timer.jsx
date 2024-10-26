@@ -82,7 +82,7 @@ const Timer = () => {
 
     return (
         <div>
-            <h1 className="title"> Timer </h1>
+            <h1 className="title"> Stop Watch </h1>
             {showScreen.show && <h1 className="title">{showScreen.message}</h1>}
             <Clock
                 miliSecond={miliSecond}
